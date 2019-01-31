@@ -43,7 +43,6 @@ class Scraper
           
           elsif link.include?("bio")
           profile_hash[:bio] = link
-        binding.pry  
       end
       
     end 
