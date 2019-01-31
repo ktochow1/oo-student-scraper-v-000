@@ -14,6 +14,7 @@ require 'pry'
   def self.create_from_collection(students_array)
     #students_array is an array of hashes with name, location of each student 
     #look at students_array and pic each student hash and create a new student from that student_hash
+    #how does the scraper class ineract???
     students_array.each do |student_hash|
      Student.new(student_hash) 
     end
