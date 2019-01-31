@@ -53,7 +53,6 @@ class Scraper
     end 
   profile_hash[:profile_quote] = scrape_page.css(".profile-quote").text 
   profile_hash[:bio] = scrape_page.css("div.description-holder p").text
-  these two above show up, other than that they don't..can't even hit pry
   profile_hash
   end
 
