@@ -5,7 +5,6 @@ require 'pry'
   @@all = []
 
   def initialize(student_hash)
-    # binding.pry
     self.send("name=", student_hash[:name])
     self.send("location=", student_hash[:location])
     # self.send("profile_url=", student_hash[:profile_url])
