@@ -29,7 +29,6 @@ class Scraper
         if link.include?("twitter")
          profile_hash[:twitter] = link
           
-         
           elsif link.include?("linkedin")
             profile_hash[:linkedin] = link 
           
