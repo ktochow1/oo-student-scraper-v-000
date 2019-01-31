@@ -43,9 +43,8 @@ class Scraper
           
           elsif link.include?("bio")
           profile_hash[:bio] = link
-      end
-      
-    end 
+        end
+      end 
   profile_hash[:profile_quote] = scrape_page.css(".profile-quote").text 
   profile_hash[:bio] = scrape_page.css("div.description-holder p").text
   profile_hash
