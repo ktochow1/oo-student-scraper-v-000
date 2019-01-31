@@ -5,6 +5,7 @@ class Student
   @@all = []
 
   def initialize(student_hash)
+    binding.pry
     self.send("name=", student_hash[:name])
     self.send("location=", student_hash[:location])
     @@all << self
