@@ -1,5 +1,5 @@
 class Student
-
+require 'pry'
   attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url 
 
   @@all = []
