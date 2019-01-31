@@ -13,7 +13,8 @@ require 'pry'
   end
 
   def self.create_from_collection(students_array)
-    binding.pry
+    students_array.each do |student_hash|
+      student_hash = Student.new
   end
 
   def add_student_attributes(attributes_hash)
