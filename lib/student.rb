@@ -8,7 +8,7 @@ class Student
     
   end
   
-  # class Klass
+# class Klass
 #   def hello(*args)
 #     "Hello " + args.join(' ')
 #   end
