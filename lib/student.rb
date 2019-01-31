@@ -25,7 +25,7 @@ require 'pry'
       self.send("#{k}=", v)
     end
       @@all << self
-    end
+    
   end
 
   def self.all
