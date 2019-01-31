@@ -18,7 +18,6 @@ class Scraper
       end 
     end
     student_arr
-    binding.pry
   end
 
   
