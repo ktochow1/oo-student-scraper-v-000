@@ -25,10 +25,7 @@ class Scraper
     scrape_page = Nokogiri::HTML(open(profile_url))
     profile_hash = {}
     profile_page = scrape_page.css(".social-icon-container a").collect{|icon| icon.attribute("href").value}
-                                  #tried using ".student-card" didn't work
-     
-    profile_page.each do |link| #("div.studen-card a").each do |link|
-      # student.css("a").each do |link|
+       profile_page.each do |link| 
         if link.include?("twitter")
          profile_hash[:twitter] = link
           
